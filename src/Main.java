@@ -74,18 +74,18 @@ public class Main {
 
         //Задача 8
         System.out.println("Задача 8");
-        int cometTrajectory =79;
-        for (int year=1822; year<=2122; year++) {
-            if (year % cometTrajectory ==0) {
+        int cometTrajectory = 79;
+        for (int year = 1822; year <= 2122; year++) {
+            if (year % cometTrajectory == 0) {
                 System.out.println(year);
             }
         }
 
         //Задача 9
         System.out.println("Задача 9");
-        int q=2;
-        for (int h=0; h<=10;h++)
-            System.out.println(q+"*"+h+"="+q*h);
+        int q = 2;
+        for (int h = 0; h <= 10;h++)
+            System.out.println(q + "*" + h + "=" + q * h);
     }
 }
 
